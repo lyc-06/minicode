@@ -164,6 +164,22 @@ export ANTHROPIC_API_KEY="sk-ant-your-key"
 export ANTHROPIC_MODEL="claude-sonnet-4-20250514"
 ```
 
+### 配置 MCP 服务器（可选）
+
+MCP（Model Context Protocol）让 Agent 能连接外部工具服务。如需使用，复制模板配置：
+
+```bash
+cp mcp.example.json .mcp.json
+# 然后编辑 .mcp.json，配置你需要的 MCP 服务器
+```
+
+支持两种类型：
+
+- **命令型**（本地运行）：`{"command": "uvx", "args": ["mcp-server-time"]}`
+- **HTTP 型**（远程服务）：`{"url": "http://localhost:9876"}`
+
+通过 `/mcp` 命令查看连接状态。
+
 ### 启动
 
 ```bash

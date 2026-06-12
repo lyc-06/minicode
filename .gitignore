@@ -12,6 +12,7 @@ venv/
 
 # Runtime config & secrets
 .minicode/
+.mcp.json
 .env
 .env.*
 
