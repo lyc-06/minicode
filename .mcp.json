@@ -1,0 +1,16 @@
+﻿{
+  "mcpServers": {
+    "test-server": {
+      "command": "python",
+      "args": ["mcp-test-server.py"],
+      "protocol": "newline-json"
+    },
+    "time": {
+      "command": "uvx",
+      "args": ["mcp-server-time"]
+    },
+    "http-test": {
+      "url": "http://localhost:9876"
+    }
+  }
+}

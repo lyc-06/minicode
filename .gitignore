@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+
+# Runtime config & secrets
+.minicode/
+.env
+.env.*
+
+# 但 .env.example 是模板文件，需要提交
+!.env.example
+
+# Development tooling
+.claude/
+
+# Personal directories
+话术/
+模拟面试/
+项目学习文档/
+
+# Downloaded / generated files
+bing_test.html
+ddg_test.html
+
+# Benchmarks (auto-generated)
+benchmark_*.json
+benchmark_*report.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
