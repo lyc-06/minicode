@@ -289,20 +289,6 @@ minicode/
 
 ---
 
-## 对比 LangChain
-
-| 维度 | MiniCode | LangChain |
-|------|----------|-----------|
-| 核心代码量 | ~2000 行 | 数十万行 |
-| 核心 loop | 75 行，读完即懂 | AgentExecutor，多层抽象 |
-| 自定义方式 | 直接改源码 | 回调/继承/Chain |
-| Agent 原理 | 透明可见 | 封装在框架内部 |
-| 适用场景 | 学习 Agent 原理 / 轻量任务 | 生产级复杂工作流 |
-
-MiniCode 不是 LangChain 的替代品——它是一本**可以运行的教科书**。
-
----
-
 ## License
 
 MIT
